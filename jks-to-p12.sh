@@ -45,3 +45,4 @@ keytool -importkeystore \
     -deststorepass "$STOREPASS" \
     -destkeypass "$STOREPASS"   # must be the same as deststorepass for reasons known only to keytool...
 
+echo "$4" > "$PASS_REAL_PATH"
